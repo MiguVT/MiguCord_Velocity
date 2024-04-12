@@ -1,6 +1,7 @@
 # MiguCord Velocity Plugin
 
-![MiguVerse Server Image](path-to-your-image.jpg)
+![MiguVerse Server Image](https://github.com/MiguVT/MiguCord_Velocity/assets/71216796/a9518146-2070-4fd0-9dd6-7dec1baff184)
+
 
 Welcome to the official GitHub repository for the MiguCord Velocity plugin! This plugin is developed by MiguVT and is tailor-made for the MiguVerse Minecraft server (IP: play.miguvt.com).
 
