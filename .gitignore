@@ -1,6 +1,4 @@
 /build/
 /out/
 .gradle/
-!gradle/wrapper/gradle-wrapper.jar
-*.jar
 /Result/
