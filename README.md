@@ -18,7 +18,7 @@ MiguVerse is a Minecraft server that offers a unique gaming experience. Our cust
 
 ## Installation
 
-1. Download the latest version of the plugin from the [Releases](link-to-releases-page) page.
+1. Download the latest version of the plugin from the [Releases](releases) page.
 2. Place the downloaded `.jar` file in your Velocity server's `plugins` folder.
 3. Restart the server, and modify the generated `config.yml` file to your liking.
 4. Enjoy your enhanced MiguVerse experience!
