@@ -1,7 +1,7 @@
 {
-    "id": "miguverse",
-    "name": "MiguVerse",
+    "id": "migucord",
+    "name": "MiguCord",
     "version": "1.0.0-SNAPSHOT",
-    "main": "com.miguvt.miguverse.MiguVersePlugin",
+    "main": "com.miguvt.migucord.MiguCordPlugin",
     "authors": ["MiguVT"]
 }  
