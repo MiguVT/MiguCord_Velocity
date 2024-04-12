@@ -1,0 +1,7 @@
+{
+    "id": "miguverse",
+    "name": "MiguVerse",
+    "version": "1.0.0-SNAPSHOT",
+    "main": "com.miguvt.miguverse.MiguVersePlugin",
+    "authors": ["MiguVT"]
+}  
