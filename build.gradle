@@ -20,5 +20,5 @@ dependencies {
 shadowJar {
     archiveClassifier.set('') // Removes the default -all classifier
     destinationDirectory = file("./Result") // Sets the output directory
-    archiveFileName = "MiguVerse-DEV-${version}.jar" // Sets the file name
+    archiveFileName = "MiguCord-DEV-${version}.jar" // Sets the file name
 }
