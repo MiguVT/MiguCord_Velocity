@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group 'com.miguvt'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://papermc.io/repo/repository/maven-public/' }
+}
+
+dependencies {
+    implementation 'com.velocitypowered:velocity-api:3.1.1'
+    implementation 'com.github.discord-jda:JDA:v5.0.0-beta.22'
+    implementation 'mysql:mysql-connector-java:8.0.33'
+}
+
+shadowJar {
+    archiveClassifier.set('') // Removes the default -all classifier
+    destinationDirectory = file("./Result") // Sets the output directory
+    archiveFileName = "MiguVerse-DEV-${version}.jar" // Sets the file name
+}
