@@ -1,0 +1,42 @@
+########################
+#                      #
+#       MiguCord       #
+#    Made by MiguVT    #
+#  Configuration File  #
+#                      #
+########################
+
+
+# Put your discord bot token here, tutorial here: https://github.com/MiguVT/MiguCord_Velocity/wiki/Configuration#create-the-bot
+discordBotToken: "YOUR_DISCORD_BOT_TOKEN_HERE"
+# Write here your server ip
+serverIP: "play.miguvt.com"
+
+modules:
+  # Status module, enable or disable the "Playing..." status
+  status:
+    enabled: true
+  # Enable or disable the discord commands
+  commands:
+    enabled: true
+  linking:
+    enabled: true
+
+statusMessages:
+  - "Playing: {playerCount}"
+  - "IP: {serverIP}"
+
+commands:
+  ip:
+    description: "Get the server IP address"
+    message: "The server IP is {serverIP}"
+  playerCount:
+    description: "Get the current player count"
+    message: "Currently, {playerCount} players are online"
+
+database:
+  host: "localhost"
+  port: 3306
+  database: "miguverse"
+  user: "root"
+  password: "your_password"
